@@ -1,0 +1,12 @@
+{
+  "name": "todo-js",
+  "version": "1.0.0",
+  "description": "A simple todo list application using vanilla JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "start": "open index.html"
+  },
+  "keywords": ["todo", "javascript", "html", "css"],
+  "author": "",
+  "license": "MIT"
+}

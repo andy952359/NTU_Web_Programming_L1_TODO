@@ -1,0 +1,11 @@
+如圖，幫我用 HTML, CSS, JavaScript 做一個純前端的 app, 目錄名稱就叫 "todo-js"，不要套用像是 React or Vue 等框架，單純用 JavaScript 就好了。
+
+- 用 yarn 管理套件與專案
+- "new todo" 為文字匡，可以輸入新的 todo 的名稱，而下方的 "description" 文字匡可以輸入這個 todo 的 description
+- 最下面的 todo1, todo2 為目前的 todo items, 上面的 new todo 加入後會加在加入後會加在 todo items 的最後面，如果超過螢幕的 viewable, 會自動出現 scroll, 但上方的 title, new todo, 以及 description 都是固定在螢幕上，不會隨著 scroll
+- app 一開始 default 就是這兩個 todo items
+- todo item 左邊的小方匡可以用來複選 todo items, 目前就只是選取而已，並沒有任何功能或是其他的操作
+- todo item 右邊紅色的 delete 按鈕按下去會把該 todo item 刪掉 （不用 pop up 詢問，直接刪掉)，其下方的 todo items 會移上來
+- click on todo item 會在其下方展開他的 description, description 的高度隨著 description 內容而定。其他方的 todo items 會隨著往下移
+- 重新開啟 app 會回到同樣的畫面 (i.e. no storage or DB)
+- 請加上 git 的管理
